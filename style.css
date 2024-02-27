@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+article {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 10px;
+}
+
+figcaption h2 {
+    margin-top: 0; /* Remove default margin */
+}
+
+figcaption p {
+    margin-bottom: 0; /* Remove default margin */
+}
+figure img {
+    display: block; /* Ensures the image doesn't leave any space below */
+    margin: 0 auto; /* Centering the image horizontally */
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Allows the image to scale proportionally */
+}
+/* CSS Stylesheet */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    display: block; /* Ensures the image doesn't leave any space below */
+    margin: 0 auto;
+    max-width: 100%; /* Adjust the size as needed */
+    height: auto;
+}
+
